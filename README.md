@@ -1,76 +1,59 @@
-# GameMarket Intelligence: Análisis Predictivo
-# 📊 Análisis de Ventas de Videojuegos
+# GameMarket Intelligence: Predictive Analysis
+# 📊 Video Game Sales Analysis
 
-Este proyecto analiza datos históricos de ventas de videojuegos para identificar patrones, tendencias y factores que influyen en el rendimiento comercial en distintas regiones del mundo.
+This project analyzes historical video game sales data to identify patterns, trends, and factors that influence commercial performance across different regions of the world.
 
-El análisis incluye limpieza de datos, exploración, visualización y pruebas estadísticas para la validación de hipótesis.
-
----
-
-## 📁 Contenido del Proyecto
-
-- `notebook.ipynb` → Análisis completo en Jupyter Notebook  
-- `games.csv` → Dataset original (no incluido en este repositorio)
+The analysis includes data cleaning, exploration, visualization, and statistical testing for hypothesis validation.
 
 ---
 
-## 🎯 Objetivo
+## 📁 Project Content
 
-El objetivo principal es:
-
-- Analizar el comportamiento de ventas por región.
-- Identificar plataformas y géneros más exitosos.
-- Evaluar la influencia de calificaciones y ratings.
-- Validar hipótesis mediante pruebas estadísticas.
-- Generar conclusiones útiles para la toma de decisiones.
+* `notebook.ipynb` → Complete analysis in a Jupyter Notebook  
+* `games.csv` → Original dataset (not included in this repository)
 
 ---
 
-## 🧹 Preparación de Datos
+## 🎯 Objective
 
-Durante el proceso se realizaron las siguientes tareas:
+The main objectives are:
 
-- Normalización de nombres de columnas.
-- Conversión de tipos de datos.
-- Tratamiento de valores nulos.
-- Creación de variables agregadas (ventas globales).
-- Limpieza de valores atípicos.
-
----
-
-## 📈 Análisis Realizado
-
-El proyecto incluye:
-
-- Análisis exploratorio de datos (EDA).
-- Distribución de ventas por plataforma y región.
-- Análisis por género y clasificación ESRB.
-- Identificación de Top 5 por región.
-- Visualizaciones con Matplotlib.
+* **Analyze sales behavior** by region.
+* **Identify platforms and genres** with the highest success rates.
+* **Evaluate the influence** of professional scores and user ratings.
+* **Validate hypotheses** through rigorous statistical testing.
+* **Generate actionable insights** for data-driven decision-making.
 
 ---
 
-## 🧪 Pruebas de Hipótesis
+## 🧹 Data Preparation
 
-Se aplicaron pruebas estadísticas para validar supuestos, incluyendo:
+During the data processing phase, the following tasks were performed:
 
-- Pruebas t de Student.
-- Comparación entre géneros y plataformas.
-- Análisis de calificaciones de usuarios.
-
-Ejemplos de hipótesis evaluadas:
-
-- Diferencias entre plataformas.
-- Diferencias entre géneros.
-- Relación entre rating y ventas.
+* **Normalization:** Standardizing column names for consistency.
+* **Type Conversion:** Ensuring data types are optimized for analysis.
+* **Missing Value Treatment:** Handling null values to avoid bias.
+* **Feature Engineering:** Creating aggregate variables like *Total Global Sales*.
+* **Outlier Removal:** Cleaning anomalies that could skew the results.
 
 ---
 
-## 🛠️ Tecnologías Utilizadas
+## 📈 Analysis Performed
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- SciPy
-- Jupyter Notebook
+The project covers a comprehensive workflow:
+
+1. **Exploratory Data Analysis (EDA):** Initial data discovery.
+2. **Distribution Analysis:** Sales breakdown by platform and region.
+3. **Segmentation:** Analysis by genre and ESRB rating.
+4. **Market Leaders:** Identification of the Top 5 performers per region.
+5. **Data Visualization:** Custom charts using Matplotlib and Seaborn.
+
+---
+
+## 🧪 Hypothesis Testing
+
+We applied statistical methods to validate assumptions, including:
+
+* **Student's t-tests** for independent samples.
+* **Genre and Platform comparison** to detect significant performance differences.
+* **Correlation analysis** between user ratings and commercial
